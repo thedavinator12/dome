@@ -1,0 +1,534 @@
+/* @override 
+	http://domepage.net/main/css/master.css
+	http://domepage.net/css/master.css
+*/
+
+*{
+   font-family:"Arial", "MS Trebuchet", sans-serif;
+}
+
+body{
+   background-color:black;
+}
+
+li{
+   list-style: none inside ;
+}
+
+h1{
+   color:white;
+   margin:0px;
+}
+
+p{
+   color:white;
+}
+
+a{
+   color:#D1F5FF;
+}
+
+a:hover{
+   color:red;
+}
+
+#all{
+   width:1000px;
+   overflow:auto;
+   margin-left:auto;
+   margin-right:auto;
+   clear:both;
+}
+
+#leftBar{
+   margin-top:20px;
+   float:left;
+   margin-right:20px;
+   width:200px;
+}
+
+#content{
+   margin-top:20px;
+   margin-bottom: 50px;
+   margin-right:20px;
+   margin-left:0px;
+   overflow:auto;
+}
+   #content h1{
+      text-align:center;
+      margin-top:15px;
+   }
+
+#rightBar{
+   width:150px;
+   margin-top:20px;
+   margin-left:20px;
+   float:right;
+}
+
+#header{
+   background-color:black;
+   border-bottom:1px solid #769995;
+   height:65px;
+}
+
+   #header h1, a{
+      color:white;
+      font-size:1.9em;
+      display:inline;
+      text-decoration:none;
+   }
+   
+   #header h2{      
+      color:white;
+      font-size:.9em;
+      display:inline;
+   }
+   
+   #header .betaTag{
+      position:relative;
+      right:3px;
+      bottom:5px;
+      color:#9AFFFF;
+      display:inline;
+      padding:0px;
+      margin-left:0px;
+      margin-right:10px;
+   }
+
+#navbar{
+	text-align:center;
+   width:950px;
+   margin-right:20px;
+   border:1px #769995 solid;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   background-color: #424242;
+   margin-left: auto;
+   margin-right: auto;
+}
+   #navbar a{
+	font-size: 1.1em;
+      padding-right: 10px;
+      padding-left: 10px;
+   }
+   
+   #navbar a:hover{
+	background-color: red;
+	color: white;
+}
+   
+#requestBox{
+   padding:10px;
+   background-color:#474747;
+   border:1px #769995 solid;
+   border-radius:5px;
+   margin-bottom:20px;  
+}
+   #requestBox h1{
+      font-size:1.3em;
+      margin-bottom:20px;
+   }
+   
+   #requestBox p{
+      font-size:.8em;
+      display:inline;
+   }
+   
+   #requestBox form{
+      display:inline;
+      width:75px;
+   }
+   
+   #requestBox input{
+      color:white;
+      background-color:black;
+      border:1px solid white;
+      width:75px;
+   }
+   #requestBox input:hover{
+      color:red;
+   }
+      
+#signInBox{
+   padding:10px;
+   background-color:#474747;
+   border:1px #769995 solid;
+   border-radius:5px;
+   margin-bottom:20px;
+}
+   #signInBox h1{
+      font-size:1.2em;
+      margin-bottom: 10px;
+      text-align:center;
+   }
+   
+   #signInBox h2{
+      font-size:.9em;
+      color:red;
+   }
+   
+   #signInBox .good{
+      font-size:.8em;
+      color: #5CBECD;
+   }
+   
+   #signInBox .userName{
+      color:white;
+      font-size:1.7em;
+   }
+   
+   #signInBox a{
+      color:#64D7DC;
+      font-size:.8em;
+   }
+   
+   #signInBox a:hover{
+      color:#AB6E60;
+   }
+   
+   #signInBox form{
+      margin-bottom:5px;
+      width:120px;
+      margin-left:auto;
+      margin-right:auto;
+   }
+
+   #signInBox form input{
+      background-color:black;
+      color:white;
+      border:1px white solid;
+      font-size:.9em;
+      width:115px;
+      margin-bottom:5px;
+   }
+   
+   #signInBox form .submit{
+      font-size:1.2em;
+      margin:0px;
+   }
+
+   #signInBox form .submit:hover{
+      color:red;
+   }
+
+#updateBox{
+   padding:10px;
+   background-color:#474747;
+   border:1px #769995 solid;
+   border-radius:5px;
+   margin-bottom:20px;
+}
+   #updateBox a{
+      text-align:center;
+      font-size:1em;
+   }
+
+#userList{
+   padding:10px;
+   background-color:#474747;
+   border:1px #769995 solid;
+   border-radius:5px;
+   margin-left:auto;
+   margin-right:auto;
+}
+   #userList h1{
+      font-size:1.6em;
+      padding:0px;
+      margin:0px;
+      color: #f00;
+   }
+   
+   #userList a{
+      font-size:1em;
+   }
+   
+   #userList li{
+      margin-top:10px;
+      list-style-image: url('../images/icon.png');
+   }
+   
+   #userList ul{
+      padding:0px;
+      margin-left:5px;
+      margin-top:5px;
+   }
+
+.specialPost{
+   border:1px #769995 solid;
+   background-color: #676767;
+   padding:15px;
+   margin-bottom: 5px;
+}
+	.specialPost .signature{
+		color: red;
+		font-size: 1.2em;
+	}
+
+   #content .specialPost h1{
+      color: #ff2f00;
+      font-size:3.4em;
+      text-align:center;
+      padding:0px;
+      margin-top:0px;
+      margin-bottom:10px;
+   }
+   
+   .specialPost p{
+	font-size: 1em;
+}
+      
+   .specialPost .desc {
+      margin-left:50px;
+      margin-right:50px;
+      background-color:#202020;
+      padding:10px;
+      color:#9DF8FF;
+      font-size:.9em;
+      font-style:italic;
+      font-weight:bold;
+   }
+   
+   .specialPost form{
+      width: 500px;
+      text-align:center;
+      margin-left:auto;
+      margin-right:auto;
+   }
+      
+   .specialPost form input{
+      text-align:center;
+      border: 1px solid white;
+      background-color: black;
+      border-radius:10px;
+      color:white;
+      font-size:1.7em;
+   }
+   
+   .specialPost form #title{
+      width:500px;
+   }
+   .specialPost form #text_content{
+      width:500px;
+      margin:0px;
+      background-color:#E9E9E9;
+      font-size:1.1em;
+      border-left:1px white solid;
+      border-right:1px white solid;
+      ;
+      border-bottom:1px white solid;
+   }
+   
+   #submit:hover{
+      color:red;
+   }
+   
+/*that place where you click the write button */
+
+#writeBox{
+   background-image: url('../images/domebackground.png');
+   margin-top:10px;
+   margin-bottom:10px;
+   border:1px #769995 solid;
+   padding-left:15px;
+   padding-right:15px;
+   padding-top:0px;
+   padding-bottom:0px;
+   height:55px;
+   text-align:center;  
+}
+
+   #writeBox a{
+      font-size:3em;
+      color:#99352C;
+   }
+      
+   #writeBox a:hover{
+      color:red;
+   }
+
+.post{
+   border:1px #E5797F solid;
+   background-color:#999;
+   padding:15px;
+   margin-bottom:5px;
+}
+   .post h1{
+      padding:0px;
+      margin:0px;
+      font-size:2.8em;
+      color:red;
+   }
+   
+   .post a{
+      font-size:1.2em;
+      color:#9AF5F5;
+   }
+   
+   .post .content{
+      display:block;
+      font-size:1em;
+   }
+   
+   .post .author{
+      font-size:.9em;
+   }
+   
+   .post p{
+      font-size:x-large;
+      display:inline;
+   }
+   
+   .post .timestamp{
+      float:right;
+      font-size:.8em;
+      display:inline;
+   }
+   
+   .post .postTitle{
+      font-weight:bold;
+      font-size:1.2em;
+      color:#99100B;
+   }
+   
+   .post .postTitle:hover{
+      color:#995651;
+   }
+   
+   .post .postTitle:visited{
+      color:#282828;
+   }
+   
+   .post .postTitle:visited:hover{
+      color:#4D4D4D;
+   }
+   
+   .post .removeButton{
+      float:right;
+   }
+
+.arrows{
+   float:left;
+   width:100px;
+   background-color:green;
+}
+
+#pageNav{
+   text-align:center;
+   padding:10px;
+}
+   #pageNav a{
+      font-size:2em;
+      font-weight:bold;
+      text-decoration:none;
+   }
+
+#footer{
+   clear:both;
+   background-color:black;
+   border-top:1px solid #A87C81;
+}
+   #footer h1{
+      font-size:1.5em;
+      color:white;
+      padding:10px;
+   }
+   
+#registerBox{
+   margin-top:25px;
+   border:1px #769995 solid;
+   background-color:#474747;
+   margin:10px;
+   padding:15px;
+   width:750px;
+   margin-left:auto;
+   margin-right:auto; 
+   border-radius:5px;  
+}
+   #registerBox h1{
+      color:red;
+      font-size:4.4em;
+      text-align:center;
+      padding:0px;
+      margin:0px;
+   }
+   
+   #registerBox h2{
+      background-color:red;
+      color:white;
+      font-size:1.1em;
+      text-align:center;
+      padding:10px;
+   }
+
+   #registerBox p{
+      font-size:1.2em;
+   }
+
+   #registerBox .desc {
+      margin-left:100px;
+      margin-right:100px;
+      background-color:#202020;
+      padding:10px;
+      color:#9DF8FF;
+      font-size:.9em;
+      font-style:italic;
+      font-weight:bold;
+   }
+   
+   #registerBox form{
+      width: 200px;
+      margin-left:auto;
+      margin-right:auto;
+   }
+
+   #registerBox input{
+      text-align:center;
+      width:200px;
+      height:35px;
+      margin-top:5px;
+      margin-bottom:5px;
+      display:block;
+      border: 1px solid white;
+      background-color: black;
+      border-radius:10px;
+      color:white;
+      font-size:.9em;
+   }
+   
+   #registerBox form #submit{
+      margin-top:15px;
+      width: 200px;
+      height: 40px;
+      background:red;
+   }
+
+   #submit:hover{
+      color:red;
+   }
+   
+   #registerBox label{
+      color:white;
+   }
+
+#rep_box{
+   padding:10px;
+   background-color:#474747;
+   border:1px #769995 solid;
+   border-radius:5px;
+   margin-left:auto;
+   margin-right:auto;
+}
+	#rep_box h2{
+	font-size: 1.4em;
+	color: red;
+	margin-top: 5px;
+}
+
+	#rep_box h1{
+	font-size: .4em;
+	margin-bottom: 5px;
+}   
+	#rep_box h1:hover{
+	color: red;
+}

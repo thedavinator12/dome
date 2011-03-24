@@ -1,0 +1,195 @@
+/* @override 
+	http://domepage.net/main/css/post.css
+	http://domepage.net/css/post.css
+*/
+
+#mainpost{
+   border:1px #769995 solid;
+   background-color:#474747;
+   padding:15px;
+   border-radius:5px;
+   margin-right:20px;  
+}
+
+#mainpost a {
+	color: #fffeff;
+	font-size: 1.2em;
+}
+
+#mainpost a:hover {
+	color: #f00;
+}
+
+#mainpost .content {
+	color: #fffeff;
+	background-color: #000;
+	padding: 10px;
+	font: 1.1em Tahoma, Arial;
+	margin: 10px 50px;
+	overflow: auto;
+}
+
+#mainpost .content img{
+	float: left;
+	max-height: 300px;
+	max-width: 300px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#mainpost .timestamp {
+	text-align: right;
+	font-size: .9em;
+	color: #ec0000;
+}
+
+#commentBox{
+   background-color:white;
+   margin-right:20px;
+	font-family: Cicle;
+}
+   #commentBox p{
+      color:black;
+   }
+
+#comment_col1 {
+	color: #fffeff;
+	width: 230px;
+	float: left;
+}
+
+#comment_col2 {
+	width: 230px;
+	float: left;
+	margin-left: 25px;
+}
+
+#comment_col3 {
+	width: 230px;
+	float: right;
+	margin-right: 20px;
+}
+
+.comment {
+	margin-top: 2px;
+	margin-bottom: 10px;
+	background-color: #000;
+	color: #769995;
+	border-style: solid;
+	border-width: 1px;
+	border-radius:5px;
+	padding: 10px;
+	word-wrap:break-word;
+	clear: both;
+	overflow: auto;
+}
+
+.comment img{
+	max-height: 120px;
+	width: 85px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.comment p{
+	font-size: .9em;
+	margin-bottom: 10px;
+	position: relative;
+	color: #f6ffff;
+}
+
+.comment .karma{
+	text-align: right;
+	color: red;
+	font-size: 1.1em;
+}
+.comment .author{
+	text-align: right;
+	font-size: 1.2em;
+	color: #fffeff;
+}
+.comment a{
+	text-align: right;
+	font-size: .9em;
+	color: #fffeff;
+  
+}
+
+.good {
+	background-color: rgba(35,124,0,0.4);
+	opacity: 1;
+}
+
+.bad {
+	background-color: rgba(188,0,0,0.4);
+}
+
+#write_comment {
+	display: none;
+	position: relative;
+	z-index: 2;
+	background-color: #424242;
+	padding: 10px;
+	overflow: auto;
+	margin-right: 40px;
+	margin-left: 20px;
+    border:1px #769995 solid;
+    width: 560px;
+}
+
+#write_comment textarea {
+	float: left;
+	width: 400px;
+	margin-right:20px;
+}
+
+#write_comment input {
+	margin-top: 20px;
+	background-color: #000;
+	color: #fffeff;
+	font-size: .8em;
+	display: block;
+}
+
+#write_comment select {
+	background-color: #000;
+	color: #fffeff;
+	font-size: .8em;
+}
+
+#close_write {
+	clear: none;
+	color: #e67578;
+	font-size: .8em;
+}
+
+#write_comment a {
+	margin-left: auto;
+}
+
+#instructionBox {
+   border:1px #769995 solid;
+   background-color:#474747;
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius:5px;
+}
+
+#instructionBox h1{
+	font-size: 1.2em;
+	text-align: left;
+	text-decoration: underline;
+}
+
+#instructionBox p{
+	font-size: .8em;
+}
+
+#instructionBox .signature{
+	font-size: .9em;
+	color: red;
+	text-align: right;
+}

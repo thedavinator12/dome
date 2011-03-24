@@ -1,0 +1,290 @@
+/* @override 
+	http://domepage.net/css/profile.css
+	http://domepage.net/css/profile.css
+*/
+
+#profileLeftBar{
+   margin-top:20px;
+   float:left;
+   margin-right:20px;
+   width: 230px;
+}
+
+#pictureBox{
+   text-align:center;
+   background-color: #797979;
+   border:1px #769995 solid;
+   margin-bottom:20px;
+   padding:10px;
+}
+   #pictureBox h1{
+      font-size:1.5em;
+      color:red;
+      margin-bottom:10px;
+   }
+   
+   #pictureBox .friend_status{
+      font-family:"Tahoma";
+      background-color:#334F99;
+      padding:5px;
+      color:white;
+      width:100px;
+      margin-left:auto;
+      margin-right:auto;
+   }
+   
+   #pictureBox img{
+      border:1px black solid;
+	width: 200px;
+}
+   
+   #pictureBox a{
+	color: #d6d4ff;
+	font-size: 1em;
+	font-weight: bold;
+	display: block;
+	float: none;
+	margin-top: 10px;
+}
+   #pictureBox a:hover{
+      color: #000;
+   }
+
+#changePicForm{
+   position:relative;
+   width:250px;
+   height:75px;
+   background-color: #d5d5d5;
+   display:none;
+   z-index:1;
+   border:1px black solid;
+   -moz-box-shadow: 3px 3px 4px #000;
+   -webkit-box-shadow: 3px 3px 4px #000;
+   box-shadow: 3px 3px 4px #000;
+   padding:10px;
+}
+   #changePicForm #pic, input{
+      background-color:black;
+      color:white;
+   }
+
+#changePicForm a {
+	color: #000;
+}
+
+#profileBox{
+   background-color: #797979;
+   padding:10px;
+   border:2px #769995 solid;
+}
+   #profileBox h1{
+      text-align:center;
+      color:red;
+   }
+   #profileBox h2{
+      font-size: 1em;
+      color: #c8ffd3;
+      margin-bottom:5px;
+   }
+   #profileBox .status{
+      padding:10px;
+      font-weight:bold;
+      font-size:1.2em;
+      color:#758EA7;
+      background-color:white;
+      text-align:center;
+      margin-left:auto;
+      margin-right:auto;
+      border-radius:5px;
+      border:1px black solid;
+      margin-bottom:0px;
+      width:500px;
+   }
+   
+   #profileBox .postRow{
+      border:1px #769995 solid;
+      background-color:#434547;
+      margin-bottom:5px;
+      padding:5px;
+   }
+      #profileBox .postRow a{
+         font-size:1.2em;
+      }
+
+      #profileBox .postRow p{
+         display:inline;
+         font-size:.8em;
+      }
+
+      #profileBox .postRow .timestamp{
+         color:#0E53FF;
+      }
+
+#status_change_box{
+   width:500px;
+   background-color:#6D6D6D;
+   margin-left:auto;
+   margin-right:auto;
+}
+   #status_change_box #status_change{
+      float:right;
+      font-size:1em;
+      margin-left:5px;
+   }
+   
+   #status_change_box #status_clear{
+      float:right;
+      font-size:1em;
+      margin-left:5px;
+   }
+
+#statusUpdate{
+   padding:10px;
+   border:1px black solid;
+   width:400px;
+   height:150px;
+   background-color:#393939;
+   position:relative;
+   bottom:50px;
+   left:75px;
+   z-index: 1;
+   display:none;
+   -moz-box-shadow: 3px 3px 4px #000;
+   -webkit-box-shadow: 3px 3px 4px #000;
+   box-shadow: 3px 3px 4px #000;
+   text-align:center;
+}
+
+   #statusUpdate #new_status{
+      background-color:white;
+      text-align:center;
+      margin-top:20px;
+      margin-left:auto;
+      margin-right:auto;
+      width:390px;
+      height:40px;
+      font-size:1.2em;
+      font-weight:bold;
+      color:red;
+   }
+   #statusUpdate a{
+      font-size:1em;
+      color:white;
+      display:block;
+      margin-left:20px;
+      float:right;
+   } 
+   #statusUpdate #change_status_submit{
+      font-size:1.1em;
+      margin-top:30px;
+      color:white;
+      background-color:black;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+   }
+   #statusUpdate #change_status_submit:hover{
+      color:red;
+   }
+
+#addFriendButton{
+      font-family:"Tahoma";
+      font-size: .9em;
+      background-color:#334F99;
+      padding:5px;
+      color:white;
+      width:100px;
+      margin-left:60px;
+}
+
+#friendsBox{
+   background-color:#6E6E6E;
+   margin-top:20px;
+   border:1px #769995 solid;
+   padding:10px;
+   overflow:auto;
+   text-align: center;
+}
+   .friend{
+	background-color: #797979;
+      text-align: center;
+      margin-right:10px;
+      height: 130px;
+      margin-top:10px;
+	padding: 5px;
+	overflow: hidden;
+	border: 1px solid #424242;
+	float: left;
+	width: 110px;
+}
+      #friendsBox .friend img{
+         margin-left:auto;
+         margin-right:auto;
+         width:75px;
+         max-height: 110px;
+         display:block;
+         border:1px black solid;
+      }
+      #friendsBox .friend img:hover{
+         border:1px red solid;
+      }
+      #friendsBox .friend a{
+         color:white;
+	font-size: .8em;
+}
+
+#wall_box {
+	background-color: #a9a9a9;
+	border:1px #769995 solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	clear: both;
+	overflow: auto;
+}
+	
+	#wall_box .wall_post .image_box a{
+	display: block;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#wall_box .wall_post .image_box{
+	float: left;
+	color: #fffeff;
+	border-color: #d5d5d5;
+	background-color: #797979;
+	border-right: 1px solid #424242;
+}
+
+#wall_box .wall_post{
+		background-color: #797979;
+		overflow: auto;
+		margin-top: 10px;
+		margin-left: 20px;
+		margin-right: 20px;
+		border: 1px solid #424242;
+	}
+
+	#wall_box .wall_post p{
+	text-align: left;
+}
+
+	
+	#wall_box .wall_post .image_box img{
+		max-width: 90px;
+		max-height: 90px;
+	display: block;
+}
+	
+	#wall_box textarea{
+		height: 95px;
+		width: 400px;
+		margin-bottom: 20px;
+}
+	#wall_box input{
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 100px;
+}
